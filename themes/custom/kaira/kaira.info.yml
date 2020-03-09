@@ -5,6 +5,7 @@ core: 8.x
 libraries:
   - kaira/global-css
   - kaira/global-js
+logo: images/logo.png
 regions:
   message: 'Messages'
   header_first: 'Header first'

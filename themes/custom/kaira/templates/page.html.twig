@@ -55,10 +55,14 @@
  */
 #}
 
-<div class="container">
+<div class="container-fluid">
 
-  <header role="banner">
-    {{ page.header }}
+  <header class="nav">
+   {# <div class="navbar-brand">
+      {{ logo }}
+    </div>#}
+    {{ page.header_first }}
+
   </header>
 
   {{ page.primary_menu }}
