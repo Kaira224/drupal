@@ -29,9 +29,7 @@
  *
  * regions:
  *   - page.message: The messages area
- *   - page.header_first: First Header region
- *   - page.header_second: Second Header region
- *   - page.header_third: Third Header region
+ *   - page.header: Header region
  *   - page.navbar: The Nav Bar Region
  *   - page.help: Help Region
  *   - page.features_first: First Features Region
@@ -57,16 +55,14 @@
 
 <div class="container-fluid">
 
-  <header class="nav">
+  <header>
    {# <div class="navbar-brand">
       {{ logo }}
     </div>#}
-    {{ page.header_first }}
+    {{ page.navbar }}
+    {{ page.header }}
 
   </header>
-
-  {{ page.primary_menu }}
-  {{ page.secondary_menu }}
 
   {{ page.breadcrumb }}
 
@@ -74,13 +70,13 @@
 
   {{ page.help }}
 
-  <main role="main">
-    <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+ {# <main role="main">
+    <a id="main-content" tabindex="-1"></a>#}{# link is in html.html.twig #}{#
 
     <div class="container">
 
       {{ page.content }}
-    </div>{# /.layout-content #}
+    </div>#}{# /.layout-content #}{#
 
     {% if page.sidebar_first %}
       <aside class="layout-sidebar-first" role="complementary">
@@ -100,6 +96,6 @@
     <footer role="contentinfo">
       {{ page.footer }}
     </footer>
-  {% endif %}
+  {% endif %}#}
 
 </div>{# /.layout-container #}

@@ -7,5 +7,12 @@ global-css:
 global-js:
   js:
     js/main.js: {}
+    js/fontawesome.js: {}
   dependencies:
     - core/jquery
+
+menu-styling:
+  version: 1.x
+  css:
+    theme:
+      css/theme/menu.css: {}

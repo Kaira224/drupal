@@ -5,12 +5,11 @@ core: 8.x
 libraries:
   - kaira/global-css
   - kaira/global-js
+  - kaira/menu-styling
 logo: images/logo.png
 regions:
   message: 'Messages'
-  header_first: 'Header first'
-  header_second: 'Header second'
-  header_third: 'Header third'
+  header: 'Header'
   navbar: 'Nav bar'
   help: 'help'
   features_first: 'Features first'
