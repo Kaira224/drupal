@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7abed37a-195b-4ed1-935c-c92bee4bae1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/themes/custom/kaira/css/theme/menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/custom/kaira/js/fontawesome.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/custom/kaira/templates/block/block--local-actions-block.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/custom/kaira/templates/block/block--system-branding-block.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/custom/kaira/templates/block/block--system-menu-block--main.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/custom/kaira/templates/block/block--system-menu-block.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/custom/kaira/templates/block/block--system-messages-block.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/custom/kaira/templates/block/block.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/custom/kaira/templates/layout/region--header.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/custom/kaira/templates/layout/region--navbar.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/custom/kaira/templates/layout/region.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/kaira/css/theme/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/kaira/css/theme/menu.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/custom/kaira/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/kaira/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/custom/kaira/kaira.info.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/kaira/kaira.info.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/custom/kaira/kaira.libraries.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/kaira/kaira.libraries.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/custom/kaira/templates/page.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/kaira/templates/layout/page--front.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +129,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583750409119</updated>
-      <workItem from="1583750410686" duration="38018000" />
+      <workItem from="1583750410686" duration="39262000" />
     </task>
     <servers />
   </component>

@@ -87,7 +87,7 @@
     color: white;
     text-align: center;
     transition: all .5s;
-    display: none;
+    left: -100%;
   }
 
   .main-nav ul li {

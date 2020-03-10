@@ -2,11 +2,11 @@ function myFunction(x) {
   let check = document.getElementById('check');
   let nav_items = document.getElementById('main-nav');
   if (x.matches) { // If media query matches
-    if (check.checked) {
-      console.log("check.checked");
-      nav_items.childNodes.item(1).style.display = "block";
-      // nav_items.children[2].setAttribute('left', '0');
-      console.log(nav_items.childNodes.item(1));
+    if (check.checked === false) {
+      console.log(check.checked);
+      nav_items.children[2].style.left = "0";
+    }else {
+      nav_items.children[2].style.left = "-100%";
     }
   }
 }
